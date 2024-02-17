@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@font-face {
+  font-family: "brushFont";
+  src: url("/assets/fonts/Regular\ Brush.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.hero {
+  background-color: rgb(255, 232, 22);
+  height: 100vh;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+header {
+  padding-inline: 50px;
+  padding-block: 30px;
+}
+.logo-area {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  color: white;
+  letter-spacing: 6px;
+}
+
+.logo-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.logo-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.social_links {
+  display: inline-flex;
+  gap: 40px;
+}
+.secular-one-regular {
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-content {
+  height: calc(100% - 30%);
+}
+.hero-content-container {
+  display: flex;
+  height: 100%;
+  gap: 60px;
+  margin-inline: 195px;
+  align-items: center;
+}
+
+.dot-area {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+}
+.phone-image {
+  height: 100%;
+}
+.phone-image img {
+  object-fit: cover;
+  width: auto;
+  height: 100%;
+  border-radius: 40px;
+  padding: 0;
+  margin: 0;
+  box-shadow: -8px 8px 35px -23px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -8px 8px 35px -23px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 8px 35px -23px rgba(0, 0, 0, 0.75);
+}
+.phone-container {
+  height: 100%;
+  display: flex;
+  gap: 40px;
+}
+.dancing-script {
+  font-family: "brushFont", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 127px;
+  line-height: 144px;
+}
+.hero-text {
+  padding: 0 10px;
+  text-align: center;
+  text-transform: capitalize;
+  transform: rotate(343deg);
+}
